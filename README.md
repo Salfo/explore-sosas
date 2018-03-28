@@ -60,8 +60,8 @@ datatable(sp_tabl, class = 'cell-border stripe', options = list(
 ))
 ```
 
-```{r}
-head(data.frame(sp_tabl))
+```{r, results='asis'}
+head(sp_tabl)
 ```
 
 
