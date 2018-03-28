@@ -53,13 +53,6 @@ sp_tabl <- sp_tabl %>%
 
 Below is the table of the web links and some metadata of the speeches
 
-```{r, warning=FALSE, message=FALSE, echo=FALSE, eval=FALSE}
-library(DT) # needed to output interactive tables 
-datatable(sp_tabl, class = 'cell-border stripe', options = list(
-  pageLength = 5, autoWidth = TRUE, caption = 'Table of the web links'
-))
-```
-
 ```{r, results='asis'}
 head(sp_tabl)
 ```
