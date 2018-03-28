@@ -54,7 +54,7 @@ sp_tabl <- sp_tabl %>%
 Below is the table of the web links and some metadata of the speeches
 
 ```{r, results='asis'}
-head(sp_tabl)
+head(sp_tabl[, c(1,2)])
 ```
 
 
