@@ -55,6 +55,7 @@ links <- sp_webpage %>%
 sp_tabl$Links <- links
 sp_tabl <- sp_tabl %>%
   filter(State != 'Texas') # Texas's file is not a speech. So remove it.
+head(sp_tabl[, c(1,2)])
 ```
 
 Below is the table of the web links and some metadata of the speeches
